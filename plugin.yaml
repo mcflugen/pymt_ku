@@ -1,0 +1,20 @@
+build:
+  define_macros: []
+  extra_compile_args: []
+  include_dirs: []
+  libraries: []
+  library_dirs: []
+  undef_macros: []
+info:
+  github_username: mcflugen
+  plugin_author: Eric Hutton
+  plugin_license: MIT
+  summary: PyMT plugin for Ku
+library:
+  entry_point: BmiKuMethod=permamodel.components.bmi_Ku_component:BmiKuMethod
+  language: python
+  register: ''
+plugin:
+  name: ku
+  requirements:
+  - permamodel
