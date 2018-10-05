@@ -1,10 +1,14 @@
-==
-ku
-==
+=======
+pymt_ku
+=======
 
 
-.. image:: https://img.shields.io/pypi/v/pymt_ku.svg
-        :target: https://pypi.python.org/pypi/pymt_ku
+.. image:: https://img.shields.io/badge/CSDMS-BMI-green.svg
+        :target: https://github.com/csdms/pymt
+        :alt: Basic Model Interface
+
+.. image:: https://img.shields.io/badge/recipe-pymt_ku-green.svg
+        :target: https://anaconda.org/conda-forge/pymt_ku
 
 .. image:: https://img.shields.io/travis/mcflugen/pymt_ku.svg
         :target: https://travis-ci.org/mcflugen/pymt_ku
@@ -12,6 +16,10 @@ ku
 .. image:: https://readthedocs.org/projects/pymt_ku/badge/?version=latest
         :target: https://pymt_ku.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+        :target: https://github.com/csdms/pymt
+        :alt: Code style: black
 
 
 PyMT plugin for Ku
@@ -63,11 +71,8 @@ be installed with:
 
   conda install permamodel
 
-Until `pymt_ku` is available on `conda-forge`, it must
-by installed from source,
+To install `pymt_ku`,
 
 .. code::
 
-  git clone https://github.com/mcflugen/pymt_ku
-  cd pymt_ku
-  python setup.py install
+  conda install pymt_ku
